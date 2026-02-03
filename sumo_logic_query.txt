@@ -1,0 +1,7 @@
+_sourcecategory=application/logs 
+| json "path","response_time" nodrop
+| where path="/api/data"
+| where response_time > 3
+| timeslice 10m
+| count as slow_requests by _timeslice 
+|  where slow_requests >5

@@ -1,0 +1,29 @@
+
+Screen and Audio Recordings (Google Drive)
+
+Folder (all parts):
+https://drive.google.com/drive/folders/1AXoxgjvJ9-ohJS3mjiFqwpRQghYgaTDW?usp=sharing
+
+Part 1 (Sumo Logic Implementation) 
+Link: https://drive.google.com/drive/folders/1Ao3ExJhQoECWu2YytKCNr9nJbEKvIAmZ?usp=sharing
+Covers:
+- HTTP source setup and log ingestion
+- Sumo query creation and validation
+- Monitor creation and alert trigger verification
+
+Part 2 (AWS Lambda + SNS + EC2 Restart + sumo alert) 
+Link: https://drive.google.com/drive/folders/18Z4FAsykDxkHqK-RK4DSNunX8KOBV5hz?usp=sharing
+Covers:
+- SNS topic + email subscription confirmation
+- Lambda code setup and environment variables
+- IAM permission fixes (EC2 reboot + SNS publish)
+- Lambda testing and SNS email verification 
+
+Part 3 (Terraform IaC)
+Link: https://drive.google.com/drive/folders/1z2722-TAiKoZz_6LvskR67VuGNM6SSGg?usp=sharing
+Covers:
+- Terraform init/plan/apply workflow
+- Deploying SNS/IAM/Lambda resources via Terraform
+- Troubleshooting errors (existing resources, IAM trust policy, state cleanup)
+- Final verification approach and outcomes
+

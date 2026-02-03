@@ -133,6 +133,3 @@ Terraform and AWS resource management introduced typical real-world conflicts du
 
 ### 5. Recordings
 - Screen and audio recordings are provided via Google Drive download links.
-
-## Notes
-Terraform deployment encountered IAM role conflicts during iteration, which were resolved manually in AWS Console. Final code reflects the intended infrastructure design.
